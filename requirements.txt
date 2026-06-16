@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────────
+#  AI Driver Drowsiness Detection System — Python requirements
+#  Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# ── Core vision & ML ──────────────────────────────────────────────
+# Note: Use Python 3.12 for this dependency set (Python 3.14 breaks MediaPipe solutions API).
+opencv-python>=4.8.0
+mediapipe==0.10.14
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ── GUI ───────────────────────────────────────────────────────────
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# ── Graphing ──────────────────────────────────────────────────────
+matplotlib>=3.7.0
+
+# ── Serial / Arduino ──────────────────────────────────────────────
+pyserial>=3.5
+
+# ── Audio TTS ─────────────────────────────────────────────────────
+pyttsx3>=2.90
+
+# ── Data export ───────────────────────────────────────────────────
+openpyxl>=3.1.0
+
+# ── Standard-library extras (usually bundled) ─────────────────────
+# sqlite3  ← built into Python
+# json     ← built into Python
+# csv      ← built into Python
+# threading← built into Python
